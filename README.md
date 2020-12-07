@@ -33,6 +33,8 @@ Service yaml, whose service type is Load Balancer, has also been annonated in ac
 
 Usage : 
 
+```
 cd spring-mysql-redis-cache/
 docker build -t <image_tag> .
+```
 
