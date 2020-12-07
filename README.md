@@ -6,10 +6,10 @@ Reference repository : https://github.com/daviestobialex/spring-mysql-redis-cach
 
 Before running docker build, you should checkout and configure Mysql and Redis endpoints that is located in the files below :
 
-***
+```
 src/main/resources/application.yml
 src/main/java/com/jeonguk/web/config/RedisConfig.java
-***
+```
 
 Also, if you want to use simple deployment and service k8s yamls, don't forget to update image line in deployment.yaml. 
 Service yaml, whose service type is Load Balancer, has also been annonated in accordance with AWS. Using Annotation is not mandatory. If you don't want to work on AWS and want to use yaml, you can delete it.
